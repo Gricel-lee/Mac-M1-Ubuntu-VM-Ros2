@@ -46,6 +46,14 @@ sudo apt update
 sudo apt upgrade
 
 sudo apt install ros-humble-desktop
-sudo apt install ros-dev-tools
 ```
+## Environment set up
+
+Continuing with the ROS2 installation instructions, the next step is to set up the source file. For bash:
+
+```
+source /opt/ros/humble/setup.bash
+```
+(In my case, at this point I encounter the error of File not found when I reached this step. I needed to restart the process of installation from the beginning, it may be I didn't save the VM as I turned it off... oh well)
+
 

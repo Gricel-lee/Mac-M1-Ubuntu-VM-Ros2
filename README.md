@@ -46,6 +46,7 @@ sudo apt update
 sudo apt upgrade
 
 sudo apt install ros-humble-desktop
+sudo apt install ros-dev-tools
 ```
 ## Environment set up
 

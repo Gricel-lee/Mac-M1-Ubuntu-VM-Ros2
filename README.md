@@ -57,4 +57,18 @@ source /opt/ros/humble/setup.bash
 ```
 (In my case, at this point I encounter the error of File not found when I reached this step. I needed to restart the process of installation from the beginning, it may be I didn't save the VM as I turned it off... oh well)
 
+Finally we can run the example in two terminals:
 
+Terminal one (publisher):
+
+```
+source /opt/ros/humble/setup.bash
+ros2 run demo_nodes_cpp talker
+```
+
+and terminal 2 (listener):
+
+```
+source /opt/ros/humble/setup.bash
+ros2 run demo_nodes_py listener
+```
